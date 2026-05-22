@@ -9,7 +9,7 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --black: #0a0a0a;
+    --black: #1e1c1a;
     --white: #f5f2ed;
     --cream: #f0ebe3;
     --accent: #e8452a;
@@ -20,7 +20,7 @@
   }
 
   body {
-    background: #1a1814;
+    background: #3a3630;
     font-family: 'DM Sans', sans-serif;
     display: flex;
     flex-direction: column;
@@ -37,10 +37,10 @@
 
   .slide-num {
     font-family: 'DM Sans', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #6b6560;
+    color: #b0aa9f;
     margin-bottom: 8px;
     padding-left: 4px;
   }
@@ -55,7 +55,7 @@
 
   /* ── SLIDE 1 – Cover ── */
   .s1 {
-    background: var(--black);
+    background: #2a2620;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,11 +66,11 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: radial-gradient(ellipse 70% 70% at 85% 50%, #c9a94f18, transparent 65%),
-                radial-gradient(ellipse 40% 80% at 10% 90%, #e8452a12, transparent 60%);
+    background: radial-gradient(ellipse 70% 70% at 85% 50%, #c9a94f25, transparent 65%),
+                radial-gradient(ellipse 40% 80% at 10% 90%, #e8452a20, transparent 60%);
   }
   .s1 .tag {
-    font-size: clamp(9px, 1vw, 13px);
+    font-size: clamp(10px, 1vw, 14px);
     letter-spacing: 5px;
     text-transform: uppercase;
     color: var(--gold);
@@ -101,8 +101,8 @@
     display: block;
   }
   .s1 .sub {
-    font-size: clamp(11px, 1.3vw, 17px);
-    color: #9e9690;
+    font-size: clamp(12px, 1.4vw, 18px);
+    color: #c8c0b5;
     margin-top: 4%;
     position: relative;
     max-width: 480px;
@@ -117,7 +117,7 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
-    opacity: 0.15;
+    opacity: 0.2;
   }
   .s1 .film-strip span {
     display: block;
@@ -148,7 +148,7 @@
     grid-template-columns: 1fr 1fr;
   }
   .s2 .left {
-    background: var(--black);
+    background: #2a2620;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,11 +164,11 @@
     bottom: -80px;
     right: -10px;
     color: var(--gold);
-    opacity: 0.05;
+    opacity: 0.07;
     line-height: 1;
   }
   .s2 .slide-label {
-    font-size: clamp(8px, 0.8vw, 11px);
+    font-size: clamp(9px, 0.9vw, 12px);
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--gold);
@@ -202,7 +202,7 @@
   .s2 .skill-icon {
     width: clamp(28px, 3.5vw, 42px);
     height: clamp(28px, 3.5vw, 42px);
-    background: var(--black);
+    background: #2a2620;
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -212,13 +212,13 @@
   }
   .s2 .skill-text strong {
     display: block;
-    font-size: clamp(10px, 1.2vw, 15px);
+    font-size: clamp(11px, 1.3vw, 16px);
     font-weight: 600;
-    color: var(--black);
+    color: #1e1c1a;
     margin-bottom: 3px;
   }
   .s2 .skill-text p {
-    font-size: clamp(8px, 0.95vw, 12px);
+    font-size: clamp(9px, 1vw, 13px);
     color: var(--mid);
     line-height: 1.5;
     font-weight: 300;
@@ -226,7 +226,7 @@
 
   /* ── SLIDE 3 – Resume formats ── */
   .s3 {
-    background: #1a1814;
+    background: #2e2b25;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,7 +240,7 @@
     top: -100px; right: -100px;
     width: 500px; height: 500px;
     border-radius: 50%;
-    background: radial-gradient(circle, #c9a94f14, transparent 70%);
+    background: radial-gradient(circle, #c9a94f20, transparent 70%);
   }
   .s3 .top-row {
     display: flex;
@@ -270,8 +270,8 @@
     position: relative;
   }
   .s3 .card {
-    background: #252219;
-    border: 1px solid #3a3630;
+    background: #3a3528;
+    border: 1px solid #504a3e;
     border-radius: 4px;
     padding: clamp(14px, 2.5vw, 28px);
     position: relative;
@@ -284,11 +284,11 @@
     position: absolute;
     bottom: -15px; right: 8px;
     color: var(--gold);
-    opacity: 0.06;
+    opacity: 0.08;
     line-height: 1;
   }
   .s3 .card-label {
-    font-size: clamp(7px, 0.75vw, 10px);
+    font-size: clamp(8px, 0.85vw, 11px);
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--gold);
@@ -297,13 +297,13 @@
   }
   .s3 .card h3 {
     font-family: 'DM Serif Display', serif;
-    font-size: clamp(13px, 1.7vw, 22px);
+    font-size: clamp(14px, 1.8vw, 23px);
     color: var(--white);
     margin-bottom: 10px;
   }
   .s3 .card p {
-    font-size: clamp(8px, 0.9vw, 12px);
-    color: #9e9690;
+    font-size: clamp(9px, 1vw, 13px);
+    color: #c0b8ae;
     line-height: 1.6;
     font-weight: 300;
   }
@@ -314,7 +314,7 @@
   .s3 .best-for {
     display: inline-block;
     margin-top: 10px;
-    font-size: clamp(7px, 0.75vw, 10px);
+    font-size: clamp(8px, 0.8vw, 11px);
     background: var(--accent);
     color: var(--white);
     padding: 2px 8px;
@@ -338,7 +338,7 @@
     justify-content: center;
   }
   .s4 .step-badge {
-    font-size: clamp(8px, 0.8vw, 11px);
+    font-size: clamp(9px, 0.9vw, 12px);
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--accent);
@@ -358,7 +358,7 @@
   .s4 h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: clamp(28px, 4.5vw, 56px);
-    color: var(--black);
+    color: #1e1c1a;
     line-height: 0.95;
     margin-bottom: 6%;
     letter-spacing: 1px;
@@ -369,11 +369,11 @@
     gap: 10px;
   }
   .s4 .stag {
-    background: var(--black);
+    background: #2a2620;
     color: var(--cream);
     padding: clamp(6px,1vw,10px) clamp(10px,1.5vw,16px);
     border-radius: 3px;
-    font-size: clamp(8px, 0.9vw, 12px);
+    font-size: clamp(9px, 1vw, 13px);
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -386,7 +386,7 @@
     flex-shrink: 0;
   }
   .s4 .right {
-    background: var(--black);
+    background: #2a2620;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -400,10 +400,10 @@
     bottom: -60px; right: -60px;
     width: 260px; height: 260px;
     border-radius: 50%;
-    background: radial-gradient(circle, #e8452a18, transparent 70%);
+    background: radial-gradient(circle, #e8452a25, transparent 70%);
   }
   .s4 .section-title {
-    font-size: clamp(8px, 0.8vw, 11px);
+    font-size: clamp(9px, 0.9vw, 12px);
     letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--gold);
@@ -424,7 +424,7 @@
   .s4 .tech-bar-wrap {
     flex: 1;
     height: 3px;
-    background: #2e2b26;
+    background: #3e3930;
     border-radius: 2px;
     overflow: hidden;
   }
@@ -434,7 +434,7 @@
     border-radius: 2px;
   }
   .s4 .tech-name {
-    font-size: clamp(8px, 0.9vw, 12px);
+    font-size: clamp(9px, 1vw, 13px);
     color: var(--cream);
     font-weight: 400;
     width: clamp(70px, 9vw, 120px);
@@ -442,7 +442,7 @@
 
   /* ── SLIDE 5 – Experience ── */
   .s5 {
-    background: #0d0c0a;
+    background: #252219;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -457,7 +457,7 @@
     position: absolute;
     right: -20px; bottom: -40px;
     color: var(--gold);
-    opacity: 0.03;
+    opacity: 0.05;
     line-height: 1;
     letter-spacing: -10px;
   }
@@ -492,7 +492,7 @@
     padding-left: 16px;
   }
   .s5 .exp-card .period {
-    font-size: clamp(7px, 0.75vw, 10px);
+    font-size: clamp(8px, 0.85vw, 11px);
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--gold);
@@ -500,14 +500,14 @@
     margin-bottom: 4px;
   }
   .s5 .exp-card .role {
-    font-size: clamp(11px, 1.4vw, 18px);
+    font-size: clamp(12px, 1.5vw, 19px);
     font-weight: 600;
     color: var(--white);
     margin-bottom: 2px;
   }
   .s5 .exp-card .company {
-    font-size: clamp(9px, 0.9vw, 12px);
-    color: var(--mid);
+    font-size: clamp(10px, 1vw, 13px);
+    color: #b0aa9f;
     margin-bottom: 8px;
     font-weight: 300;
   }
@@ -518,8 +518,8 @@
     gap: 4px;
   }
   .s5 .exp-card ul li {
-    font-size: clamp(8px, 0.85vw, 11px);
-    color: #8a8480;
+    font-size: clamp(9px, 0.95vw, 12px);
+    color: #b8b0a8;
     line-height: 1.4;
     padding-left: 10px;
     position: relative;
@@ -546,10 +546,10 @@
     padding: 7% 8%;
   }
   .s6 .panel:first-child {
-    background: var(--black);
+    background: #2a2620;
   }
   .s6 .panel-label {
-    font-size: clamp(8px, 0.8vw, 11px);
+    font-size: clamp(9px, 0.9vw, 12px);
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: 600;
@@ -565,20 +565,20 @@
     margin-bottom: 6%;
   }
   .s6 .panel:first-child h2 { color: var(--white); }
-  .s6 .panel:last-child h2 { color: var(--black); }
+  .s6 .panel:last-child h2 { color: #1e1c1a; }
   .s6 .edu-info {
     display: flex;
     flex-direction: column;
     gap: 6px;
   }
   .s6 .edu-info p {
-    font-size: clamp(9px, 1vw, 13px);
-    color: #9e9690;
+    font-size: clamp(10px, 1.05vw, 14px);
+    color: #c0b8ae;
     line-height: 1.6;
     font-weight: 300;
   }
   .s6 .edu-info strong {
-    font-size: clamp(11px, 1.2vw, 16px);
+    font-size: clamp(12px, 1.3vw, 17px);
     color: var(--cream);
     font-weight: 500;
     display: block;
@@ -607,19 +607,19 @@
   }
   .s6 .cert-text strong {
     display: block;
-    font-size: clamp(10px, 1.1vw, 14px);
+    font-size: clamp(11px, 1.2vw, 15px);
     font-weight: 600;
-    color: var(--black);
+    color: #1e1c1a;
   }
   .s6 .cert-text span {
-    font-size: clamp(8px, 0.85vw, 11px);
+    font-size: clamp(9px, 0.9vw, 12px);
     color: var(--mid);
     font-weight: 300;
   }
 
   /* ── SLIDE 7 – Summary tips ── */
   .s7 {
-    background: #0f0e0c;
+    background: #262420;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -631,7 +631,7 @@
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: radial-gradient(ellipse 80% 60% at 50% 0%, #c9a94f09, transparent 60%);
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, #c9a94f15, transparent 60%);
   }
   .s7 h2 {
     font-family: 'Bebas Neue', sans-serif;
@@ -651,8 +651,8 @@
     z-index: 1;
   }
   .s7 .tip {
-    background: #1a1814;
-    border: 1px solid #2e2b26;
+    background: #312e28;
+    border: 1px solid #484038;
     border-radius: 4px;
     padding: clamp(12px, 2vw, 22px);
     position: relative;
@@ -665,26 +665,26 @@
     position: absolute;
     bottom: -12px; right: 4px;
     color: var(--gold);
-    opacity: 0.07;
+    opacity: 0.1;
     line-height: 1;
   }
   .s7 .tip-icon { font-size: clamp(18px, 2.5vw, 28px); margin-bottom: 8px; }
   .s7 .tip h3 {
-    font-size: clamp(10px, 1.2vw, 15px);
+    font-size: clamp(11px, 1.3vw, 16px);
     font-weight: 600;
     color: var(--white);
     margin-bottom: 6px;
   }
   .s7 .tip p {
-    font-size: clamp(8px, 0.8vw, 11px);
-    color: #7a7470;
+    font-size: clamp(9px, 0.9vw, 12px);
+    color: #b0a89e;
     line-height: 1.5;
     font-weight: 300;
   }
 
   /* ── SLIDE 8 – Team ── */
   .s8 {
-    background: var(--black);
+    background: #2a2620;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -699,12 +699,12 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse 60% 50% at 50% 0%, #c9a94f0d, transparent 60%),
-      radial-gradient(ellipse 40% 40% at 10% 80%, #e8452a0a, transparent 55%),
-      radial-gradient(ellipse 40% 40% at 90% 80%, #e8452a0a, transparent 55%);
+      radial-gradient(ellipse 60% 50% at 50% 0%, #c9a94f18, transparent 60%),
+      radial-gradient(ellipse 40% 40% at 10% 80%, #e8452a12, transparent 55%),
+      radial-gradient(ellipse 40% 40% at 90% 80%, #e8452a12, transparent 55%);
   }
   .s8 .label {
-    font-size: clamp(8px, 0.8vw, 11px);
+    font-size: clamp(9px, 0.9vw, 12px);
     letter-spacing: 5px;
     text-transform: uppercase;
     color: var(--gold);
@@ -737,8 +737,8 @@
     width: clamp(42px, 6vw, 72px);
     height: clamp(42px, 6vw, 72px);
     border-radius: 50%;
-    background: linear-gradient(135deg, #2e2b26, #1a1814);
-    border: 2px solid #3a3630;
+    background: linear-gradient(135deg, #3e3830, #2a2620);
+    border: 2px solid #504a3e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -747,8 +747,8 @@
     color: var(--gold);
   }
   .s8 .name {
-    font-size: clamp(9px, 1vw, 13px);
-    color: #9e9690;
+    font-size: clamp(10px, 1.1vw, 14px);
+    color: #c8c0b5;
     font-weight: 300;
     white-space: nowrap;
     letter-spacing: 0.5px;
@@ -771,7 +771,7 @@
   .nav span {
     width: 6px; height: 6px;
     border-radius: 50%;
-    background: #3a3630;
+    background: #504a3e;
     cursor: pointer;
     transition: background 0.2s;
   }
@@ -960,7 +960,7 @@
     </div>
     <div class="panel" style="background:#f0ebe3">
       <div class="panel-label">Step 06</div>
-      <h2 style="color:#0a0a0a">CERTIFICATIONS</h2>
+      <h2 style="color:#1e1c1a">CERTIFICATIONS</h2>
       <div class="cert-list">
         <div class="cert">
           <div class="cert-icon">🍎</div>
